@@ -10,6 +10,10 @@
 
 .logoName {
   font-size: 2rem; /* Corrected property: font-size */
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
 
 .navbar ul {
@@ -35,4 +39,12 @@
 
 .navbar li:hover {
   background-color: #777;
+}
+
+.kittypic {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
 }
