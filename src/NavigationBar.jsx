@@ -5,17 +5,17 @@ import "./NavigationBar.css";
 export default function NavigationBar() {
   return (
     <div>
-      <img
+      {/* <img
         className="kittypic"
         src="./src/assets/Kitty.png"
         alt="black kitty in watercolor style"
-      />
+      /> */}
 
-      <Link to="/" className="logoName">
-        <h2>Snuggle & Stitch Society</h2>
-      </Link>
       <nav className="navbar">
         {/* Use Link component instead of <a> */}
+        <Link to="/" className="logoName">
+          <h2>Snuggle & Stitch Society</h2>
+        </Link>
         <ul>
           <li>
             <Link to="/">Home</Link>

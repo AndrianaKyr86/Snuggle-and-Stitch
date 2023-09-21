@@ -14,8 +14,8 @@ export default function Home() {
         <div className="heroImage">
           <img
             className="kitty"
-            src="src/assets/transpKitty.png"
-            alt="Image of a crocheted doll named Mushroomina with a red hat resembling a red cap mushroom"
+            src="src/assets/KittyTrans.jpg"
+            alt="Image of a black cat on watercolor background"
           />
         </div>
         {/* anf the text where I cannot find how to put the next to each other and share an equal space */}
@@ -31,6 +31,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* this is where we start with the cards for the benefits */}
       <div className="benefits">
         <h2>Why Choose Snuggle & Stitch</h2>
         <p>
@@ -39,17 +40,17 @@ export default function Home() {
         </p>
         <div className="benefitCards">
           <div className="beneCard">
-            <img src="src/assets/mushroomina.jpg" alt="Handcrafted Icon" />
+            <img src="src/assets/uni.jpeg" alt="Handcrafted Icon" />
             <h3>Handcrafted with Care</h3>
             <p>Every stitch is an expression of creativity and dedication.</p>
           </div>
           <div className="beneCard">
-            <img src="src/assets/mushroomina.jpg" alt="Quality Icon" />
+            <img src="src/assets/froggy.jpeg" alt="Quality Icon" />
             <h3>Premium Quality</h3>
             <p>We use the finest materials to ensure lasting enjoyment.</p>
           </div>
           <div className="beneCard">
-            <img src="src/assets/mushroomina.jpg" alt="Unique Icon" />
+            <img src="src/assets/hippos.jpeg" alt="Unique Icon" />
             <h3>Uniquely Yours</h3>
             <p>Each creation carries its own charm and personality.</p>
           </div>
