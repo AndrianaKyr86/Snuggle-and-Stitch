@@ -11,7 +11,7 @@ const Designs = () => {
       pictures: [
         {
           id: 1,
-          src: "assets/Pokemon/pikachu1.jpg",
+          src: "src/assets/Pokemon/pikachu.jpg",
           description: "Pikachu",
         },
         // add more pictures here later
@@ -22,12 +22,12 @@ const Designs = () => {
         },
         {
           id: 3,
-          src: "src/assets/Pokemon/charizard.jpeg",
+          src: "src/assets/Pokemon/charizard.jpg",
           description: "Charizard",
         },
         {
           id: 4,
-          src: "src/assets/Pokemon/charmander.jpeg",
+          src: "src/assets/Pokemon/charmander.jpg",
           description: "Charmander",
         },
       ],
@@ -55,7 +55,7 @@ const Designs = () => {
             {section.pictures.map((picture) => (
               <div key={picture.id} className="picture-container">
                 <img
-                  src={`assets/${section.folder}/${picture.src}`}
+                  src={`${picture.src}`}
                   alt={picture.description}
                   onClick={() => handlePictureClick(picture)}
                 />
